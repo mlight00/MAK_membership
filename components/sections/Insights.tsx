@@ -1,5 +1,6 @@
+
 import React from 'react';
-import { ArrowRight, BookOpen, Database, Award } from 'lucide-react';
+import { BookOpen, Database, Award } from 'lucide-react';
 
 export const Insights: React.FC = () => {
   return (
@@ -29,7 +30,7 @@ export const Insights: React.FC = () => {
                 <h3 className="text-2xl font-bold text-white font-serif">The Vetting Process</h3>
               </div>
               <p className="text-gray-400 leading-relaxed text-lg">
-                How we select content: Every post is analyzed based on clinical evidence, innovation level, and practical applicability. Only the top tier makes it to the English edition.
+                Every post is analyzed based on clinical evidence, innovation level, and practical applicability. Only the highest-quality content makes it to the English edition.
               </p>
             </div>
             <div>
@@ -38,12 +39,9 @@ export const Insights: React.FC = () => {
                 <h3 className="text-2xl font-bold text-white font-serif">Beyond Textbooks</h3>
               </div>
               <p className="text-gray-400 leading-relaxed text-lg">
-                Textbooks are static. Our platform is dynamic. Access 'Off-label' uses and practical tips that are currently being discussed in closed Korean aesthetic expert communities.
+                Access off-label applications and practical tips that are currently being discussed in closed Korean aesthetic expert communities.
               </p>
             </div>
-            <button className="self-start text-accent border-b border-accent pb-1 hover:text-white hover:border-white transition-all flex items-center gap-2 group">
-              Browse Example Insights <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
-            </button>
           </div>
         </div>
       </div>
